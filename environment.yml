@@ -1,7 +1,7 @@
 #
 # Andrew Davidson
 # aedavids@ucsc.edu
-# 9/29/26
+# 4/26/25
 #
 
 #
@@ -57,51 +57,51 @@ dependencies:
   - scikit-learn
   - scipy
   - pandas
-  # - git installs the Git command-line tool
-#   - umap-learn # https://umap-learn.readthedocs.io/en/latest/
-#   - python-louvain
-#   - PivotTableJS
-#   - seaborn
+  - umap-learn # https://umap-learn.readthedocs.io/en/latest/
+  - python-louvain
+  - PivotTableJS
+  - seaborn
   - upsetplot
-#   - ipynbname
-# #  - esri::scikit-plot # https://scikit-plot.readthedocs.io/en/stable/index.html
-#   - pytables # required by pandas.DataFrame.to_hdf
-#   #- pip:
-#   #  - dumper # debug gcp/terra fissc error
-#   # 
-#   #- deep learning packages
-#   - h5py
-#   - pydot
-#   - graphviz
+  - ipynbname
+#  - esri::scikit-plot # https://scikit-plot.readthedocs.io/en/stable/index.html
+  - pytables # required by pandas.DataFrame.to_hdf
+  #- pip:
+  #  - dumper # debug gcp/terra fissc error
+  # 
+  #- deep learning packages
+  - h5py
+  - pydot
+  - graphviz
   
-#   # pytorch is hard to use. We need it to implement the GAN
-#   # keras does not work with pytorch
-#   - pytorch
-#   - torchvision 
-#   # - scikit-plot version problems with scipi
-#   - shap
-#   - mygene #  data mining info about genes
+  # pytorch is hard to use. We need it to implement the GAN
+  # keras does not work with pytorch
+  - pytorch
+  - torchvision 
+  # - scikit-plot version problems with scipi
+  - shap
+  - mygene #  data mining info about genes
 
-#   - gseapy
+  - gseapy
 
-#   # 'single-cell analysis, we use Louvain/ leiden Clustering
-#   - scanpy 
-#   - python-igraph 
-#   - leidenalg
+  # 'single-cell analysis, we use Louvain/ leiden Clustering
+  - scanpy 
+  - python-igraph 
+  - leidenalg
 
-  # # pip installs must be last!
-  # - pip:
-  #     # Keras (everywhere)
-  #     - "keras>=3"
+  # 10/2/26 pymupdf is used to combine matplotlib figures in pdf
+  # into a single panel for our manuscript
+  - pymupdf
 
-  #     # TensorFlow on macOS Apple Silicon (CPU; optional Metal acceleration below)
-  #     - "tensorflow>=2.20; platform_system=='Darwin' and platform_machine=='arm64'"
-  #     - "tensorflow-metal; platform_system=='Darwin' and platform_machine=='arm64'"
+  # pip installs must be last!
+  - pip:
+      # Keras (everywhere)
+      - "keras>=3"
 
-  #     # TensorFlow + CUDA on Linux x86_64
-  #     # pytorch already installed 
-  #     #- "tensorflow[and-cuda]>=2.20; platform_system=='Linux' and platform_machine=='x86_64'"
-  #     - tensorflow>=2.20; platform_system=='Linux' and platform_machine=='x86_64'
+      # TensorFlow on macOS Apple Silicon (CPU; optional Metal acceleration below)
+      - "tensorflow>=2.20; platform_system=='Darwin' and platform_machine=='arm64'"
+      - "tensorflow-metal; platform_system=='Darwin' and platform_machine=='arm64'"
 
-
-prefix: ${CONDA_PREFIX}/envs/P-SCE
+      # TensorFlow + CUDA on Linux x86_64
+      # pytorch already installed 
+      #- "tensorflow[and-cuda]>=2.20; platform_system=='Linux' and platform_machine=='x86_64'"
+      - tensorflow>=2.20; platform_system=='Linux' and platform_machine=='x86_64'
