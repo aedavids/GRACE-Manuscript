@@ -2,7 +2,7 @@
 Created on Jun 21, 2020
 
 @author: andrewdavidson
-Copyright 2020 Santa Cruz Analytics. All rights reserved.
+Copyright 2020 - 20207 Santa Cruz Analytics. All rights reserved.
 
 example of useage see: src/scaStats/biaDescribe.py notice `-- shortdesc' in modulal documentation
 '''

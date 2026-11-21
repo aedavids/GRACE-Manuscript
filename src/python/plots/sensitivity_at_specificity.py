@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 """
+
+Copyright (c) 2020-2027, Regents of the University of California All rights reserved.
+https://polyformproject.org/licenses/noncommercial/1.0.0
+
 public functions:
     sensitivity_at_specificity(y_true, y_score, target_spec=0.90, interpolate=True)
     computeSensitivitiesAtTargets()

@@ -2,7 +2,7 @@
 Andrew E. Davidson
 aedavids@ucsc.edu
 Date: 2025-09-27
-Copyright (c) 2020-2023, Regents of the University of California All rights reserved.
+Copyright (c) 2020-2027, Regents of the University of California All rights reserved.
 https://polyformproject.org/licenses/noncommercial/1.0.0
 
 Description: 
