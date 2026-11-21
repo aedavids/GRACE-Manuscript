@@ -92,10 +92,13 @@ dependencies:
   # into a single panel for our manuscript
   - pymupdf
 
+  - tabulate
+
   # pip installs must be last!
   - pip:
       # Keras (everywhere)
       - "keras>=3"
+      - keras-tuner
 
       # TensorFlow on macOS Apple Silicon (CPU; optional Metal acceleration below)
       - "tensorflow>=2.20; platform_system=='Darwin' and platform_machine=='arm64'"

@@ -14,4 +14,12 @@ a framework for expanding high-dimensional molecular training cohorts while pres
 ```
 conda env create -f environment.yml
 ```
-
+**If you use vscode**. 
+- check .vscode/setting.json
+- it expects a .env file in your home directory. Here is an example
+```
+$ cat ~/graceM/.env
+WORKSPACE_ROOT_DIR=/private/home/aedavids/graceM
+PYTHONPATH=${WORKSPACE_ROOT_DIR}/src/python
+PYTHONPATH=${PYTHONPATH}:${WORKSPACE_ROOT_DIR}/src/jupyterNotebooks
+```
