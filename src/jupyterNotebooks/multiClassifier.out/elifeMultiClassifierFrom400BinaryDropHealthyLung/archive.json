@@ -1,0 +1,11 @@
+{
+    "abstract": null,
+    "panels": {
+        "elifeMultiClassifierFrom400BinaryDropHealthyLung_results'upsetPlot'": "/scratch/aedavids/fagazi/simulatedData/elifeMultiClassifierFrom400Binary.sh.out_best400_results/upsetPlot.out/best400_results-allDegrees.png"
+    },
+    "results": {},
+    "runTimeStamp": "2026-11-20 13:16:43",
+    "diagnosticBundles": [
+        "/private/home/aedavids/graceM/src/jupyterNotebooks/multiClassifier.out/elifeMultiClassifierFrom400BinaryDropHealthyLung/multi/archive_multi.json"
+    ]
+}

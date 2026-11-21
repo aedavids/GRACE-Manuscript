@@ -1,0 +1,107 @@
+#
+# Andrew Davidson
+# aedavids@ucsc.edu
+# 9/29/26
+#
+
+#
+# best practice install the libmamba package solver
+# https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community/
+# it runs a lot faster than the standard conda solver
+#
+
+# https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#exporting-an-environment-file-across-platforms
+# https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#create-env-file-manually
+
+#
+# create a new env
+# conda env create -f environment.yml
+#
+
+
+#
+# to update your enviroment, add new depedencies to the yml file
+# --prune remove dependencies that are no longer required
+# conda env update  --file testEnvironment.yml  --prune
+#
+
+#
+# clean up command
+# $ conda env remove -n testEnvironment
+#
+
+#
+# pip example. Sometimes you have no choice
+# https://github.com/binder-project/example-conda-environment/blob/master/environment.yml
+#
+
+#
+# best practice conda env name should be sample as git repo name
+#
+
+name: grace
+channels:
+  - conda-forge
+  - bioconda
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.13
+  - pip # we need to add pip as a dependency becuase we use pip bellow
+  #- pipy libmamba solver problem?
+  - numpy
+  - matplotlib
+  # - jupyter_conda
+  - jupyterlab
+  # - notebook
+  - scikit-learn
+  - scipy
+  - pandas
+  # - git installs the Git command-line tool
+#   - umap-learn # https://umap-learn.readthedocs.io/en/latest/
+#   - python-louvain
+#   - PivotTableJS
+#   - seaborn
+  - upsetplot
+#   - ipynbname
+# #  - esri::scikit-plot # https://scikit-plot.readthedocs.io/en/stable/index.html
+#   - pytables # required by pandas.DataFrame.to_hdf
+#   #- pip:
+#   #  - dumper # debug gcp/terra fissc error
+#   # 
+#   #- deep learning packages
+#   - h5py
+#   - pydot
+#   - graphviz
+  
+#   # pytorch is hard to use. We need it to implement the GAN
+#   # keras does not work with pytorch
+#   - pytorch
+#   - torchvision 
+#   # - scikit-plot version problems with scipi
+#   - shap
+#   - mygene #  data mining info about genes
+
+#   - gseapy
+
+#   # 'single-cell analysis, we use Louvain/ leiden Clustering
+#   - scanpy 
+#   - python-igraph 
+#   - leidenalg
+
+  # # pip installs must be last!
+  # - pip:
+  #     # Keras (everywhere)
+  #     - "keras>=3"
+
+  #     # TensorFlow on macOS Apple Silicon (CPU; optional Metal acceleration below)
+  #     - "tensorflow>=2.20; platform_system=='Darwin' and platform_machine=='arm64'"
+  #     - "tensorflow-metal; platform_system=='Darwin' and platform_machine=='arm64'"
+
+  #     # TensorFlow + CUDA on Linux x86_64
+  #     # pytorch already installed 
+  #     #- "tensorflow[and-cuda]>=2.20; platform_system=='Linux' and platform_machine=='x86_64'"
+  #     - tensorflow>=2.20; platform_system=='Linux' and platform_machine=='x86_64'
+
+
+prefix: ${CONDA_PREFIX}/envs/P-SCE

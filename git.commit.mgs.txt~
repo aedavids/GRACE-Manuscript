@@ -1,0 +1,15 @@
+# Figure 1Binary classifier performance on independent real samples: simulated training vs. Reggiard
+
+works.
+
+old name:
+a. Figure F_R3_1
+/Users/andrewdavidson/googleUCSC/kimLab/fagazi/src/jupyterNotebooks/binaryClassifierXAI/binaryClassifiers.out/shrunkBest200/img/panel/manuscript/rocSensitivityAt90Specificity.pdf
+
+
+## TODO
+1. after we are able to recreate all the figure delete dead code
+2. - rename dataSetName = "shrunkBest200", "binaryClassifier training data"
+   * also rename the bin/grace shell file
+   * simulatedDataRootDir_G = "/private/groups/kimlab/aedavids/fagazi/simulatedData
+

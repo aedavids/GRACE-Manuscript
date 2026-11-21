@@ -1,0 +1,3 @@
+WORKSPACE_ROOT_DIR=/private/home/aedavids/grace
+PYTHONPATH=${WORKSPACE_ROOT_DIR}/src/python
+PYTHONPATH=${PYTHONPATH}:${WORKSPACE_ROOT_DIR}/src/jupyterNotebooks

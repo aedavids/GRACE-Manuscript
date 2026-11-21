@@ -1,0 +1,11 @@
+{
+    "abstract": null,
+    "panels": {
+        "elifeMultiClassifierFrom300_1vsAllRelaxedDropHealthy_results'upsetPlot'": "/scratch/aedavids/fagazi/simulatedData/elifeMultiClassifierFrom300_1vsAllRelaxed.sh.out_best300_results/upsetPlot.out/best300_results-allDegrees.png"
+    },
+    "results": {},
+    "runTimeStamp": "2026-11-20 13:34:31",
+    "diagnosticBundles": [
+        "/private/home/aedavids/graceM/src/jupyterNotebooks/multiClassifier.out/elifeMultiClassifierFrom300_1vsAllRelaxedDropHealthy/multi/archive_multi.json"
+    ]
+}
