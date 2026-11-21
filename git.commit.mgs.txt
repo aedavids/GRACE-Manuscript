@@ -1,22 +1,2 @@
-# Figure 2 Simulated training data set improves random forest multiclass classification performance
-
-src/jupyterNotebooks/multiClassifier.ipynb. 
-creates.     
-- Extended Data Figure 4: Confusion matrices comparing synthetic training, validation, and real holdout performance
-- Extended Data Figure 11: Random Forest Multi-Classifier Feature Selection
-
-## TODO
-1. after we are able to recreate all the figure delete dead code
-
-2. data avalibity
-   *  '/scratch/aedavids/fagazi/simulatedData/elifeMultiClassifierFrom300_1vsAllRelaxed.sh.out_best300_results
-   * src/bin/
-   * simulatedDataPath = f"{scratchDataRootDir_G}/elifeMultiClassifierFrom400Binary.sh.out_best400_results",
-   * FileNotFoundError: [Errno 2] No such file or directory: '/scratch/aedavids/fagazi/simulatedData/elifeMultiClassifierFrom400Binary.sh.out_best400_results'
-
-3. rename
-   * runConfig_G = elifeMultiClassifierFrom400BinaryDropHealthy_Lung_G # 4 cancer
-   *runConfig_G = elifeMultiClassifierFrom300_1vsAllRelaxedDropHealthy_G # 5 cancer
-
-
+# Extended Data Figure 3: Unsupervised dimensionality reduction of real clinical plasma cfRNA. samples. 
 
