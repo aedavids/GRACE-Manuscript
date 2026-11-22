@@ -1,6 +1,7 @@
 # Figure 
 - Figure 8. SHAP14–16 explanations reveal the local feature contributions underlying correct and incorrect multiclass cancer predictions
 - Extended Data Figure 10. Permutation feature importance evaluated on independent real holdout samples
+- Extended Data Figure 11: Random Forest Multi-Classifier Feature Selection
 
 ## TODO make data avalible
 

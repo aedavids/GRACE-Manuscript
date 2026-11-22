@@ -78,8 +78,14 @@ class UpsetPlot( object ):
 
         ref: plots.test.testUpsetPlots.testPlot()
 
-        '''
+        '''        
+        # aedwipUpset = upsp.UpSet(self.geneSetsUpsetPlotData,  **kwags)
+        # see https://github.com/jnothman/UpSetPlot/issues/303?utm_source=chatgpt.com
+        # self.logger.error(f'AEDWIP !!! aedwipUpset.style_subsets : {aedwipUpset.style_subsets}')
+        # self.logger.error(f'AEDWIP !!!aedwipUpset._subset_styles[:10] : {aedwipUpset._subset_styles[:10]}')
         pltDict = upsp.UpSet(self.geneSetsUpsetPlotData,  **kwags).plot()
+        # pltDict = aedwipUpset.plot()
+        
         self.fig = plt.gcf()
         title = self.signatureGeneConfig.title
         self.fig.suptitle( title, fontsize=40 ) 
