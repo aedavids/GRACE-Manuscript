@@ -1,6 +1,6 @@
-# Figure 7 Cancer-associated biological programs are detectable in cfRNA.
-
+# Figure 
+- Figure 8. SHAP14–16 explanations reveal the local feature contributions underlying correct and incorrect multiclass cancer predictions
+- Extended Data Figure 10. Permutation feature importance evaluated on independent real holdout samples
 
 ## TODO make data avalible
 
-/private/groups/kimlab/genomes.annotations/genomes.annotations/gencode.39/named_ucsc.rmsk.insert.info.txt
