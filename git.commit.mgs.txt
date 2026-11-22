@@ -1,4 +1,13 @@
-# Figure 3. Stress-test workflow for evaluating model performance as feature dimensionality increases. 
+# Figure 4. Performance of random forest classifiers trained on GRACE simulated datasets as a function of the number of selected features
 
-TODO: data avalibility /private/groups/kimlab/aedavids/fagazi/simulatedData/overfittingStressTestRunner
 
+TODO make data avalible
+
+['/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Colorectal/intra_vs_all.results',
+ '/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Esophagus/intra_vs_all.results',
+ '/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Healthy/intra_vs_all.results',
+ '/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Liver/intra_vs_all.results',
+ '/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Lung/intra_vs_all.results',
+ '/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Stomach/intra_vs_all.results']
+
+ 
