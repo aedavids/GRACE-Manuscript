@@ -1,19 +1,6 @@
-# figures
-- Figure 5: cfRNA and Intracellular Feature Overlap by Cancer Diagnosis
-- Figure 6: Selective cfRNA packaging produces diagnosis-specific transcriptomic differences. 
-- Extended Data Figure 6: Differential enrichment of RNA biotypes demonstrates selective cfRNA packaging. 
-- Extended Data Figure 7: Selective cfRNA packaging produces diagnosis-specific transcriptomic difference
-- Extended Data Figure 8: Selective cfRNA packaging produces diagnosis-specific transcriptomic difference
-
+# Figure 7 Cancer-associated biological programs are detectable in cfRNA.
 
 
 ## TODO make data avalible
 
-['/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Colorectal/intra_vs_all.results',
- '/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Esophagus/intra_vs_all.results',
- '/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Healthy/intra_vs_all.results',
- '/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Liver/intra_vs_all.results',
- '/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Lung/intra_vs_all.results',
- '/private/groups/kimlab/data/elifeGTExTCGA/cromwell.output/Stomach/intra_vs_all.results']
-
- /private/groups/kimlab/genomes.annotations/genomes.annotations/gencode.39/named_ucsc.rmsk.insert.info.txt
+/private/groups/kimlab/genomes.annotations/genomes.annotations/gencode.39/named_ucsc.rmsk.insert.info.txt
